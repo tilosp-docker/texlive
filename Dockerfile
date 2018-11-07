@@ -15,8 +15,8 @@ RUN set -ex; \
     \
     curl -fsSL -o picins.zip http://mirrors.ctan.org/macros/latex209/contrib/picins.zip; \
     echo "de77751b90dda6c776ebe13b3c850b9646be3ac6b45b3ee9f7bcf8b9a9e078f9 *picins.zip" | sha256sum -c -; \
-    mkdir -p /usr/share/texmf-local/tex/latex/picins; \
-    unzip picins.zip -d /usr/share/texmf-local/tex/latex/picins; \
+    mkdir -p /usr/share/texlive/texmf-local/tex/latex/picins; \
+    unzip picins.zip -d /usr/share/texlive/texmf-local/tex/latex/picins; \
     rm picins.zip; \
     texhash; \
     \
