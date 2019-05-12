@@ -17,7 +17,7 @@ RUN set -ex; \
 RUN set -ex; \
     apt-get update; \
     apt-get install -y --no-install-recommends \
-        python-pygments \
+        python3-pygments \
     ; \
     rm -rf /var/lib/apt/lists/*
 
