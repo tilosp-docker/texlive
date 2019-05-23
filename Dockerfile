@@ -5,6 +5,7 @@ RUN set -ex; \
     DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
         texlive-full \
     ; \
+    apt-get --purge remove -y .\*-doc$; \
     rm -rf /var/lib/apt/lists/*
 
 RUN set -ex; \
