@@ -7,5 +7,5 @@ RUN set -ex; \
         graphviz \
     ; \
     rm -rf /var/lib/apt/lists/*; \
-    mkdir -p /opt/local; \
+    mkdir -p /opt/local/bin; \
     ln -s /opt/local/bin/dot /usr/bin/dot
