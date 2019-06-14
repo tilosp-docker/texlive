@@ -20,6 +20,4 @@ RUN set -ex; \
     apt-get install -y --no-install-recommends \
         openjdk-11-jre-headless \
     ; \
-    rm -rf /var/lib/apt/lists/*; \
-    mkdir -p /opt/local; \
-    ln -s /opt/local/bin/dot /usr/bin/dot
+    rm -rf /var/lib/apt/lists/*
