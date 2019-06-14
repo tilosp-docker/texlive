@@ -6,4 +6,6 @@ RUN set -ex; \
         plantuml \
         graphviz \
     ; \
-    rm -rf /var/lib/apt/lists/*
+    rm -rf /var/lib/apt/lists/*; \
+    mkdir -p /opt/local; \
+    ln -s /opt/local/bin/dot /usr/bin/dot
