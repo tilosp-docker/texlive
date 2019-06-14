@@ -8,4 +8,4 @@ RUN set -ex; \
     ; \
     rm -rf /var/lib/apt/lists/*; \
     mkdir -p /opt/local/bin; \
-    ln -s /opt/local/bin/dot /usr/bin/dot
+    ln -s /usr/bin/dot /opt/local/bin/dot
