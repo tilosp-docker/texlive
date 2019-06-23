@@ -10,7 +10,7 @@ RUN set -ex; \
     mkdir -p /opt/local/bin; \
     ln -s /usr/bin/dot /opt/local/bin/dot
 
-ENV PLANTUML_VERSION 1.2019.6
+ENV PLANTUML_VERSION 1.2019.5
 
 RUN set -ex; \
     apt-get update; \
